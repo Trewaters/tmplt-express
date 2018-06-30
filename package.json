@@ -1,0 +1,36 @@
+{
+  "name": "tmplt-express",
+  "version": "0.1.0",
+  "description": "template for basic express server setup with logging.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "template",
+    "Tre'",
+    "Grisby",
+    "Tre'",
+    "Grisby",
+    "III",
+    "Tre'",
+    "G.",
+    "III",
+    "III",
+    "web",
+    "server"
+  ],
+  "author": "Tre' Grisby",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2"
+  }
+}

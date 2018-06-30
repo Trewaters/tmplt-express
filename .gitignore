@@ -1,9 +1,57 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# Tre' Developer files
+Dev FILES/
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+# ignore all node-modules. They are in the package.json
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+
+# System Files
+.DS_Store
+Thumbs.db
+
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/libpeerconnection.log
+testem.log
 
 # Runtime data
 pids
@@ -59,3 +107,9 @@ typings/
 
 # next.js build output
 .next
+
+# Useful links
+# http://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files/
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
