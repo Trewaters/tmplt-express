@@ -26,6 +26,7 @@ I added "Hewards Handy Haversack" for fun. That can be changed or removed easily
 
 - [Winston](https://github.com/winstonjs/winston) for server logging
 - [ExpressJS](https://github.com/expressjs/express) web server and middleware
+- [Helmet](https://www.npmjs.com/package/helmet) web server security
 
 ## Contributing
 

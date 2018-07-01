@@ -5,13 +5,20 @@ const xServe = express();
 
 const winston = require("winston");
 
+const helmet = require("helmet");
+
 const path = require("path");
 
 /* 
 Template contents:
   - web server with Express
   - logging to file with Winston
+  - web server security with helmet
 */
+
+// set up helmet for web server security
+xServe.use(helmet());
+xServe.use(helmet.noCache()); // disable caching
 
 // Create Logger
 const logger = winston.createLogger({

@@ -8,6 +8,8 @@
 
 # Tre' Developer files
 Dev FILES/
+package-lock.json
+gitignore
 
 # compiled output
 /dist
