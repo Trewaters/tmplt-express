@@ -9,7 +9,7 @@
 # Tre' Developer files
 Dev FILES/
 package-lock.json
-gitignore
+.gitignore
 
 # compiled output
 /dist
@@ -17,9 +17,8 @@ gitignore
 /out-tsc
 
 # dependencies
-# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
-# ignore all node-modules. They are in the package.json
-/node_modules
+
+
 
 # IDEs and editors
 /.idea
@@ -83,6 +82,8 @@ bower_components
 build/Release
 
 # Dependency directories
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+# ignore all node-modules. They are in the package.json
 node_modules/
 jspm_packages/
 
