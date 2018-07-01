@@ -18,8 +18,6 @@ I added "Hewards Handy Haversack" for fun. That can be changed or removed easily
 
 **TO DO**
 
-- add helmet for basic web server security
-
 ## CREDIT
 
 ### Built With
