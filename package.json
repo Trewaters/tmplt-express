@@ -1,6 +1,6 @@
 {
   "name": "tmplt-express",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "template for basic express server setup with logging.",
   "main": "server.js",
   "scripts": {

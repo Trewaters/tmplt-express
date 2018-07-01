@@ -1,6 +1,6 @@
 # "tmplt-Express" - Boilerplate Express Server
 
-version 0.1.0
+version 1.1.0
 
 This is template ("tmplt") code for an ExpressJS web server. I am using Winston for logging to file.
 

@@ -28,11 +28,18 @@ const logger = winston.createLogger({
     */
   format: winston.format.json(),
   transports: [
-    new winston.transports.File({ filename: "xError.log", level: "error" }),
-    new winston.transports.File({ filename: "xErrorCombined.log" })
+    new winston.transports.File({
+      filename: "./log/xError.log",
+      level: "error"
+    }),
+    new winston.transports.File({
+      filename: "./log/xErrorCombined.log"
+    })
   ],
   exceptionHandlers: [
-    new winston.transports.File({ filename: "xExceptions.log" })
+    new winston.transports.File({
+      filename: "./log/xExceptions.log"
+    })
   ]
 });
 
